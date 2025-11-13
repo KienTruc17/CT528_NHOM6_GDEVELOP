@@ -1,0 +1,5228 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 245,
+    "major": 5,
+    "minor": 5,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "841db635-ea85-4aba-b375-49891fa8e535",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "version": "1.0.0",
+    "name": "49 NGAY",
+    "description": "",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "player/animations/breathing-idle/east/frame_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\breathing-idle\\east\\frame_000.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/breathing-idle/east/frame_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\breathing-idle\\east\\frame_001.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/breathing-idle/east/frame_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\breathing-idle\\east\\frame_002.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/breathing-idle/east/frame_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\breathing-idle\\east\\frame_003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/breathing-idle/north/frame_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\breathing-idle\\north\\frame_000.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/breathing-idle/north/frame_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\breathing-idle\\north\\frame_001.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/breathing-idle/north/frame_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\breathing-idle\\north\\frame_002.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/breathing-idle/north/frame_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\breathing-idle\\north\\frame_003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/breathing-idle/south/frame_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\breathing-idle\\south\\frame_000.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/breathing-idle/south/frame_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\breathing-idle\\south\\frame_001.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/breathing-idle/south/frame_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\breathing-idle\\south\\frame_002.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/breathing-idle/south/frame_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\breathing-idle\\south\\frame_003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/breathing-idle/west/frame_000.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"player/animations/breathing-idle/west/frame_000.png\",\"extension\":\".png\"}",
+        "name": "player\\animations\\breathing-idle\\west\\frame_000.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/breathing-idle/west/frame_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\breathing-idle\\west\\frame_001.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/breathing-idle/west/frame_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\breathing-idle\\west\\frame_002.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/breathing-idle/west/frame_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\breathing-idle\\west\\frame_003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/running-6-frames/east/frame_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\running-6-frames\\east\\frame_000.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/running-6-frames/east/frame_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\running-6-frames\\east\\frame_001.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/running-6-frames/east/frame_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\running-6-frames\\east\\frame_002.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/running-6-frames/east/frame_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\running-6-frames\\east\\frame_003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/running-6-frames/east/frame_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\running-6-frames\\east\\frame_004.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/running-6-frames/east/frame_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\running-6-frames\\east\\frame_005.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/running-6-frames/north/frame_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\running-6-frames\\north\\frame_000.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/running-6-frames/north/frame_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\running-6-frames\\north\\frame_001.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/running-6-frames/north/frame_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\running-6-frames\\north\\frame_002.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/running-6-frames/north/frame_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\running-6-frames\\north\\frame_003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/running-6-frames/north/frame_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\running-6-frames\\north\\frame_004.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/running-6-frames/north/frame_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\running-6-frames\\north\\frame_005.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/running-6-frames/south/frame_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\running-6-frames\\south\\frame_000.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/running-6-frames/south/frame_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\running-6-frames\\south\\frame_001.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/running-6-frames/south/frame_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\running-6-frames\\south\\frame_002.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/running-6-frames/south/frame_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\running-6-frames\\south\\frame_003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/running-6-frames/south/frame_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\running-6-frames\\south\\frame_004.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/running-6-frames/south/frame_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\running-6-frames\\south\\frame_005.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/running-6-frames/west/frame_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\running-6-frames\\west\\frame_000.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/running-6-frames/west/frame_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\running-6-frames\\west\\frame_001.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/running-6-frames/west/frame_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\running-6-frames\\west\\frame_002.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/running-6-frames/west/frame_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\running-6-frames\\west\\frame_003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/running-6-frames/west/frame_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\running-6-frames\\west\\frame_004.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/running-6-frames/west/frame_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\running-6-frames\\west\\frame_005.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/walk/east/frame_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\walk\\east\\frame_000.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/walk/east/frame_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\walk\\east\\frame_001.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/walk/east/frame_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\walk\\east\\frame_002.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/walk/east/frame_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\walk\\east\\frame_003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/walk/east/frame_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\walk\\east\\frame_004.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/walk/east/frame_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\walk\\east\\frame_005.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/walk/north/frame_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\walk\\north\\frame_000.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/walk/north/frame_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\walk\\north\\frame_001.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/walk/north/frame_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\walk\\north\\frame_002.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/walk/north/frame_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\walk\\north\\frame_003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/walk/north/frame_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\walk\\north\\frame_004.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/walk/north/frame_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\walk\\north\\frame_005.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/walk/south/frame_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\walk\\south\\frame_000.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/walk/south/frame_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\walk\\south\\frame_001.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/walk/south/frame_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\walk\\south\\frame_002.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/walk/south/frame_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\walk\\south\\frame_003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/walk/south/frame_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\walk\\south\\frame_004.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/walk/south/frame_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\walk\\south\\frame_005.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/walk/west/frame_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\walk\\west\\frame_000.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/walk/west/frame_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\walk\\west\\frame_001.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/walk/west/frame_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\walk\\west\\frame_002.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/walk/west/frame_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\walk\\west\\frame_003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/walk/west/frame_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\walk\\west\\frame_004.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/animations/walk/west/frame_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\animations\\walk\\west\\frame_005.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/rotations/east.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\rotations\\east.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/rotations/north.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\rotations\\north.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/rotations/south.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\rotations\\south.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/rotations/west.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\rotations\\west.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Platformer Asset All A.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Platformer Asset All A.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "decorative_cracks_coasts_animation.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "decorative_cracks_coasts_animation.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dark Brick 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dark Brick 1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dark Brick2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dark Brick2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Mock Up 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mock Up 1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Tilemap.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tilemap.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ground.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "ground.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Platformer Asset All H.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Platformer Asset All H.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Thiết kế chưa có tên.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Thiết kế chưa có tên.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Thiết kế chưa có tên.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Thiết kế chưa có tên.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "topdown.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "topdown.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Platformer Asset All K.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Platformer Asset All K.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Platformer Asset All H2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Platformer Asset All H2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Platformer Asset All B.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Platformer Asset All B.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Platformer Asset All A2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Platformer Asset All A2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Platformer Asset All H3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Platformer Asset All H3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Thiết kế chưa có tên2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Thiết kế chưa có tên2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Thiết kế chưa có tên (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Thiết kế chưa có tên (2).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Screenshot 2025-10-30 144451.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Screenshot 2025-10-30 144451.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Screenshot 2025-10-30 144451.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "skull.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skull.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Thiết kế chưa có tên (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Thiết kế chưa có tên (3).png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "skull1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skull1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "fire_animation.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fire_animation.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Objects.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Objects.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Objects2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Objects2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "grave2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "grave2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Bones_shadow1_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bones_shadow1_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Dead_arm_shadow2_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dead_arm_shadow2_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "water_detilazation.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "water_detilazation.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "character/enemy/vong/front.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "character\\enemy\\vong\\front.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "character/enemy/vong/back.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "character\\enemy\\vong\\back.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "character/enemy/vong/left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "character\\enemy\\vong\\left.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "character/enemy/vong/right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "character\\enemy\\vong\\right.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "character/enemy/vong/front-Sheet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "character\\enemy\\vong\\front-Sheet.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/vong.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "vong",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/vong2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "vong2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/vong3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "vong3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/vong4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "vong4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/vong5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "vong5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/vong6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "vong6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/vong7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "vong7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/vong8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "vong8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "character/enemy/vong/Right-Sheet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "character\\enemy\\vong\\Right-Sheet.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/character_enemy_vong_Right-Sheet.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "character\\enemy\\vong\\Right-Sheet",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/character_enemy_vong_Right-Sheet2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "character\\enemy\\vong\\Right-Sheet2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/character_enemy_vong_Right-Sheet3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "character\\enemy\\vong\\Right-Sheet3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/character_enemy_vong_Right-Sheet4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "character\\enemy\\vong\\Right-Sheet4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "1.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "1.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "2.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "3.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "3.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "4.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "4.jpg",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/vong9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "vong9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/vong10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "vong10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/vong11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "vong11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/vong12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "vong12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Player6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Player6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/full run north.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\full run north.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/rolation mới-20251112T080203Z-1-001/rolation mới/north.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\rolation mới-20251112T080203Z-1-001\\rolation mới\\north.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/rolation mới-20251112T080203Z-1-001/rolation mới/south.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\rolation mới-20251112T080203Z-1-001\\rolation mới\\south.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/rolation mới-20251112T080203Z-1-001/rolation mới/east.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\rolation mới-20251112T080203Z-1-001\\rolation mới\\east.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "player/rolation mới-20251112T080203Z-1-001/rolation mới/west.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "player\\rolation mới-20251112T080203Z-1-001\\rolation mới\\west.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player_animations_running-6-frames_east_frame_000.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "player\\animations\\running-6-frames\\east\\frame_000",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player_animations_running-6-frames_east_frame_0002.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "player\\animations\\running-6-frames\\east\\frame_0002",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player_animations_running-6-frames_east_frame_0003.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "player\\animations\\running-6-frames\\east\\frame_0003",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player_animations_running-6-frames_east_frame_0004.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "player\\animations\\running-6-frames\\east\\frame_0004",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player_animations_running-6-frames_east_frame_0005.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "player\\animations\\running-6-frames\\east\\frame_0005",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player_animations_running-6-frames_east_frame_0006.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "player\\animations\\running-6-frames\\east\\frame_0006",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/run-down.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "run-down",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/run-down2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "run-down2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/run-down3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "run-down3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/run-down4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "run-down4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/run-down5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "run-down5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/run-down6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "run-down6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/run-left.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "run-left",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/run-left2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "run-left2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/run-left3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "run-left3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/run-left4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "run-left4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/run-left5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "run-left5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/run-left6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "run-left6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/GoLeft.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GoLeft",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/GoLeft2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GoLeft2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/GoLeft3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GoLeft3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/GoLeft4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GoLeft4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "character/enemy/Ma/sau.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "character\\enemy\\Ma\\sau.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "character/enemy/Ma/trai-Sheet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "character\\enemy\\Ma\\trai-Sheet.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/GoLeft5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GoLeft5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/GoLeft6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GoLeft6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/GoLeft7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GoLeft7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/GoLeft8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GoLeft8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "character/enemy/Ma/truoi.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "character\\enemy\\Ma\\truoi.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "character/enemy/Ma/phai.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "character\\enemy\\Ma\\phai.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "character/enemy/Ma/trai.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "character\\enemy\\Ma\\trai.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walk-up.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk-up",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walk-up2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk-up2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walk-up3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk-up3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walk-up4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk-up4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walk-down.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk-down",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walk-down2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk-down2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walk-down3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk-down3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walk-down4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk-down4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walk-right.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk-right",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walk-right2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk-right2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walk-right3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk-right3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walk-right4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk-right4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walk-left.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk-left",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walk-left2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk-left2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walk-left3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk-left3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/walk-left4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk-left4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite17",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite18",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "character/enemy/quỷ lửa/02_demon_walk/demon_walk_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "character\\enemy\\quỷ lửa\\02_demon_walk\\demon_walk_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "character/enemy/quỷ lửa/02_demon_walk/demon_walk_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "character\\enemy\\quỷ lửa\\02_demon_walk\\demon_walk_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "character/enemy/quỷ lửa/02_demon_walk/demon_walk_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "character\\enemy\\quỷ lửa\\02_demon_walk\\demon_walk_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "character/enemy/quỷ lửa/02_demon_walk/demon_walk_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "character\\enemy\\quỷ lửa\\02_demon_walk\\demon_walk_4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "character/enemy/quỷ lửa/02_demon_walk/demon_walk_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "character\\enemy\\quỷ lửa\\02_demon_walk\\demon_walk_5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "character/enemy/quỷ lửa/02_demon_walk/demon_walk_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "character\\enemy\\quỷ lửa\\02_demon_walk\\demon_walk_6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "character/enemy/quỷ lửa/02_demon_walk/demon_walk_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "character\\enemy\\quỷ lửa\\02_demon_walk\\demon_walk_7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "character/enemy/quỷ lửa/02_demon_walk/demon_walk_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "character\\enemy\\quỷ lửa\\02_demon_walk\\demon_walk_8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "character/enemy/quỷ lửa/02_demon_walk/demon_walk_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "character\\enemy\\quỷ lửa\\02_demon_walk\\demon_walk_9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "character/enemy/quỷ lửa/02_demon_walk/demon_walk_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "character\\enemy\\quỷ lửa\\02_demon_walk\\demon_walk_10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "character/enemy/quỷ lửa/02_demon_walk/demon_walk_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "character\\enemy\\quỷ lửa\\02_demon_walk\\demon_walk_11.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "character/enemy/quỷ lửa/02_demon_walk/demon_walk_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "character\\enemy\\quỷ lửa\\02_demon_walk\\demon_walk_12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "dialogue_box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dialogue_box.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "option_box.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"option_box.png\",\"extension\":\".png\"}",
+        "name": "option_box.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "name_box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "name_box.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "player",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "name_box2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"name_box2.png\",\"extension\":\".png\"}",
+        "name": "name_box2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "FREE/background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "FREE\\background.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/dialogue lobby scene.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/dialogue lobby scene.json\"}",
+        "name": "dialogue lobby scene",
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Player",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "dir",
+          "type": "string",
+          "value": "down"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "SmoothCamera",
+          "type": "SmoothCamera::SmoothCamera",
+          "LeftwardSpeed": 0.9,
+          "RightwardSpeed": 0.9,
+          "UpwardSpeed": 0.9,
+          "DownwardSpeed": 0.9,
+          "FollowOnX": true,
+          "FollowOnY": true,
+          "FollowFreeAreaLeft": 0,
+          "FollowFreeAreaRight": 0,
+          "FollowFreeAreaTop": 0,
+          "FollowFreeAreaBottom": 0,
+          "CameraOffsetX": 0,
+          "CameraOffsetY": 0,
+          "CameraDelay": 0,
+          "ForecastTime": 0,
+          "ForecastHistoryDuration": 0,
+          "LogLeftwardSpeed": 2.0247e-320,
+          "LogRightwardSpeed": 2.0247e-320,
+          "LogDownwardSpeed": 2.0247e-320,
+          "LogUpwardSpeed": 2.0247e-320,
+          "DelayedCenterX": 2.0247e-320,
+          "DelayedCenterY": 2.0247e-320,
+          "ForecastHistoryMeanX": 2.0247e-320,
+          "ForecastHistoryMeanY": 2.0247e-320,
+          "ForecastHistoryVarianceX": 2.0247e-320,
+          "ForecastHistoryCovariance": 2.0247e-320,
+          "ForecastHistoryLinearA": 2.0247e-320,
+          "ForecastHistoryLinearB": 2.0247e-320,
+          "ForecastedX": 2.0247e-320,
+          "ForecastedY": 2.0247e-320,
+          "ProjectedNewestX": 2.0247e-320,
+          "ProjectedNewestY": 2.0247e-320,
+          "ProjectedOldestX": 2.0247e-320,
+          "ProjectedOldestY": 2.0247e-320,
+          "ForecastHistoryVarianceY": 2.0247e-320,
+          "Index": 2.0247e-320,
+          "CameraDelayCatchUpSpeed": 0,
+          "CameraExtraDelay": 2.0247e-320,
+          "WaitingSpeedXMax": 2.0247e-320,
+          "WaitingSpeedYMax": 2.0247e-320,
+          "WaitingEnd": 2.0247e-320,
+          "CameraDelayCatchUpDuration": 2.0247e-320,
+          "LeftwardSpeedMax": 9000,
+          "RightwardSpeedMax": 9000,
+          "UpwardSpeedMax": 9000,
+          "DownwardSpeedMax": 9000,
+          "OldX": 9000.000000007454,
+          "OldY": 9000.000000007454,
+          "IsCalledManually": false
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "allowDiagonals": false,
+          "acceleration": 4000,
+          "angleOffset": 0,
+          "angularMaxSpeed": 0,
+          "customIsometryAngle": 30,
+          "deceleration": 8000,
+          "ignoreDefaultControls": false,
+          "maxSpeed": 70,
+          "movementAngleOffset": 0,
+          "rotateObject": false,
+          "useLegacyTurnBack": false,
+          "viewpoint": "TopDown"
+        }
+      ],
+      "animations": [
+        {
+          "name": "idle-up",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\breathing-idle\\north\\frame_000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "idle-down",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\breathing-idle\\south\\frame_000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "idle-right",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\breathing-idle\\east\\frame_000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "idle-left",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\breathing-idle\\west\\frame_000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "walk-up",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\walk\\north\\frame_000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\walk\\north\\frame_001.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\walk\\north\\frame_002.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\walk\\north\\frame_003.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\walk\\north\\frame_004.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\walk\\north\\frame_005.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "walk-down",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\walk\\south\\frame_000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\walk\\south\\frame_001.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\walk\\south\\frame_002.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\walk\\south\\frame_003.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\walk\\south\\frame_004.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\walk\\south\\frame_005.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "walk-right",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\walk\\east\\frame_000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\walk\\east\\frame_001.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\walk\\east\\frame_002.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\walk\\east\\frame_003.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\walk\\east\\frame_004.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\walk\\east\\frame_005.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "walk-left",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\walk\\west\\frame_000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\walk\\west\\frame_001.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\walk\\west\\frame_002.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\walk\\west\\frame_003.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\walk\\west\\frame_004.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\walk\\west\\frame_005.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "run-up",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\running-6-frames\\north\\frame_000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\running-6-frames\\north\\frame_001.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\running-6-frames\\north\\frame_002.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\running-6-frames\\north\\frame_003.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\running-6-frames\\north\\frame_004.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\running-6-frames\\north\\frame_005.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "run-down",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "run-down",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "run-down2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "run-down3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "run-down4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "run-down5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "run-down6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "run-right",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\running-6-frames\\east\\frame_000",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\running-6-frames\\east\\frame_0002",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\running-6-frames\\east\\frame_0003",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\running-6-frames\\east\\frame_0004",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\running-6-frames\\east\\frame_0005",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "player\\animations\\running-6-frames\\east\\frame_0006",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "run-left",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "run-left",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "run-left2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "run-left3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "run-left4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "run-left5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "run-left6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 23,
+                        "y": 40
+                      },
+                      {
+                        "x": 32.5,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 41,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 40,
+                        "y": 51
+                      },
+                      {
+                        "x": 24,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "vong",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "AnimatedBackAndForthMirroredMovement",
+          "type": "AnimatedBackAndForthMovement::AnimatedBackAndForthMirroredMovement",
+          "Animation": "Animation",
+          "Flippable": "Flippable",
+          "SpeedX": 5,
+          "DistanceX": 5,
+          "InitialX": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "GoLeft",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "GoLeft5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 63
+                      },
+                      {
+                        "x": 24,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "GoLeft6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 63
+                      },
+                      {
+                        "x": 24,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "GoLeft7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 63
+                      },
+                      {
+                        "x": 24,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "GoLeft8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 63
+                      },
+                      {
+                        "x": 24,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "down",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "character\\enemy\\Ma\\sau.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 63
+                      },
+                      {
+                        "x": 24,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "up",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "character\\enemy\\Ma\\truoi.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 63
+                      },
+                      {
+                        "x": 24,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "right",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "character\\enemy\\Ma\\phai.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 63
+                      },
+                      {
+                        "x": 24,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "left",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "character\\enemy\\Ma\\trai.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 63
+                      },
+                      {
+                        "x": 24,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "walk-up",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "walk-up",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 63
+                      },
+                      {
+                        "x": 24,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "walk-up2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 63
+                      },
+                      {
+                        "x": 24,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "walk-up3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 63
+                      },
+                      {
+                        "x": 24,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "walk-up4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 63
+                      },
+                      {
+                        "x": 24,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "walk-down",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "walk-down",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 63
+                      },
+                      {
+                        "x": 24,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "walk-down2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 63
+                      },
+                      {
+                        "x": 24,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "walk-down3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 63
+                      },
+                      {
+                        "x": 24,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "walk-down4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 63
+                      },
+                      {
+                        "x": 24,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "walk-right",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "walk-right",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 63
+                      },
+                      {
+                        "x": 24,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "walk-right2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 63
+                      },
+                      {
+                        "x": 24,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "walk-right3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 63
+                      },
+                      {
+                        "x": 24,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "walk-right4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 63
+                      },
+                      {
+                        "x": 24,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "walk-left",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.25,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "walk-left",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 63
+                      },
+                      {
+                        "x": 24,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "walk-left2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 63
+                      },
+                      {
+                        "x": 24,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "walk-left3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 63
+                      },
+                      {
+                        "x": 24,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "walk-left4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 12
+                      },
+                      {
+                        "x": 39,
+                        "y": 63
+                      },
+                      {
+                        "x": 24,
+                        "y": 63
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Player"
+      },
+      {
+        "objectName": "vong"
+      }
+    ]
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "dialogueState",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "textScrollSpeed",
+      "type": "number",
+      "value": 0
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/untitled-scene"
+    }
+  ],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/dialogue-external-events"
+    }
+  ],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/animatedbackandforthmovement"
+    }
+  ],
+  "externalLayouts": []
+}
